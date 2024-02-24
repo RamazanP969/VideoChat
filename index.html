@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Chat App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="video-container">
+<video id="localVideo" autoplay muted></video>
+
+</div>
+<button id="startButton">Start Video Chat</button>
+<button id="stopButton" style="display: none;">Stop Video Chat</button>
+<button id="toggleCameraButton" style="display: none;">Toggle Camera</button>
+<button id="toggleMicrophoneButton" style="display: none;">Toggle Microphone</button>
+<div class="volume-meter">
+<div class="volume-bar" id="volumeBar"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
